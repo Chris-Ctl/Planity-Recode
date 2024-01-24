@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Planity</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- START : Header -->
     <header>
-        <img src="assets/img/logo.svg" alt="Logo de l'entreprise Planity">
+      <img src="assets/img/logo.svg" alt="Logo de l'entreprise Planity" />
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="coiffeur.html">Coiffeur</a>
-                </li>
-                <li>
-                    <a href="barbier.html">Barbier</a>
-                </li>
-                <li>
-                    <a href="manucure.html">Manucure</a>
-                </li>
-                <li>
-                    <a href="institut-de-beaute.html">Institut de beauté</a>
-                </li>
-                <li>
-                    <a href="mag.html">Mag</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="coiffeur.html">Coiffeur</a>
+          </li>
+          <li>
+            <a href="barbier.html">Barbier</a>
+          </li>
+          <li>
+            <a href="manucure.html">Manucure</a>
+          </li>
+          <li>
+            <a href="institut-de-beaute.html">Institut de beauté</a>
+          </li>
+          <li>
+            <a href="mag.html">Mag</a>
+          </li>
+        </ul>
+      </nav>
 
-        <div>
-            <button type="button">Ajouter votre établissement</button>
-            <button type="button">Se connecter</button>
-        </div>
+      <div>
+        <button type="button">Ajouter votre établissement</button>
+        <button type="button">Se connecter</button>
+      </div>
     </header>
+    <!-- END : Header -->
 
+    <!-- START : Main -->
     <main>
+      <!-- START : Hero -->
+      <section>
+        <h1>Vos rendez-vous beauté en ligne</h1>
+        <p>Simple • Immédiat • 24h/24</p>
 
+        <form action="/" method="get">
+          <label for="my-service">Que cherchez-vous ?</label>
+          <input
+            type="text"
+            value=""
+            name="service"
+            id="my-service"
+            placeholder="Nom du salon, prestations (coupe...)"
+          />
+
+          <label>
+            Où
+            <input
+              type="text"
+              value=""
+              name="city"
+              id=""
+              placeholder="Adresse, ville..."
+            />
+          </label>
+          <button type="submit">Rechercher</button>
+        </form>
+      </section>
+      <!-- END : Hero -->
     </main>
-</body>
-
+    <!-- End : Main -->
+  </body>
 </html>
