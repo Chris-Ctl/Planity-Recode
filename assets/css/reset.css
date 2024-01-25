@@ -16,7 +16,8 @@ ol {
   list-style: none;
 }
 
-button {
+button,
+input {
   border: none;
   background-color: transparent;
 }
